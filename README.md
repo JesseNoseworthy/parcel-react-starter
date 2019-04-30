@@ -6,7 +6,7 @@ This _barebones_ React boilerplate generate outputs an app using the following t
 - **Build Tool**: [Parcel](https://parceljs.org)
 - **Styling Library**: [styled-components](https://www.styled-components.com)
 
-The outputted folder directory is as follows:
+The outputted folder structure is as follows:
 
 ```
 src
