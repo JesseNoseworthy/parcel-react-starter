@@ -5,7 +5,7 @@ const path = require('path');
 const {execSync} = require('child_process');
 
 const source = path.join(__dirname, '../templates/react-boilerplate');
-const destination = 'app';
+const destination = process.argv[2];
 
 const handleExit = () => {
   console.log();
@@ -26,11 +26,11 @@ const handleSuccess = () => {
   const appName = process.argv[2];
   console.log('Generating your app directory...');
   const installCommands = `
-  cd app
-  yarn cache clean
-  yarn global add json
-  yarn install
-  json -I -f package.json -e 'this.name="${appName}"'
+    cd ${appName}
+    yarn cache clean
+    yarn global add json
+    yarn install
+    json -I -f package.json -e 'this.name="${appName}"'
   `
   const options = {
     encoding: 'utf8'
