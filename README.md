@@ -28,7 +28,7 @@ src
 
 1. Generate your app 
     ```shell
-    $ npx jn-react-boilerplate your-app-name
+    $ npx parcel-react-starter your-app-name
     ```
 
 2. Navigate into your newly generate `./app` directory
