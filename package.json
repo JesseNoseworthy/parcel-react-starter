@@ -1,8 +1,9 @@
 {
   "name": "parcel-react-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jesse Noseworthy",
   "license": "MIT",
+  "repository": "https://github.com/JesseNoseworthy/parcel-react-starter",
   "devDependencies": {},
   "dependencies": {
     "child_process": "^1.0.2",
