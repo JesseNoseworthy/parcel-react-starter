@@ -1,0 +1,14 @@
+{
+  "name": "parcel-react-starter",
+  "version": "1.0.0",
+  "author": "Jesse Noseworthy",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^7.0.1"
+  },
+  "bin": {
+    "generate": "./scripts/generate.js"
+  }
+}

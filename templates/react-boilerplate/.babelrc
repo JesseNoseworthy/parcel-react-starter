@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": "./src",
+        "alias": {
+          "app": "./src/app",
+          "components": "./src/components",
+          "assets": "./src/assets",
+          "data": "./src/data",
+          "utilities": "./src/utilities"
+        }
+      }
+    ],
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ]
+  ]
+}
