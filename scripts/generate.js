@@ -5,7 +5,7 @@ const path = require('path');
 const {execSync} = require('child_process');
 
 const source = path.join(__dirname, '../templates/react-boilerplate');
-const destination = process.argv[2];
+const appName = process.argv[2] || 'app';
 
 const handleExit = () => {
   console.log();
@@ -23,7 +23,6 @@ const handleError = err => {
 };
 
 const handleSuccess = () => {
-  const appName = process.argv[2];
   console.log('Generating your app directory...');
   const installCommands = `
     cd ${appName}
@@ -44,7 +43,7 @@ const handleSuccess = () => {
 
 
 // copy source folder to destination
-fs.copy(source, destination, function (err) {
+fs.copy(source, appName, function (err) {
   if (err) {
     handleError(err);
   } else {

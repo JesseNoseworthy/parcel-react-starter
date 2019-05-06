@@ -18,7 +18,7 @@ src
 └─- assets
 │   │  favicon.ico
 └─- components
-└─- data (removable)
+└─- resource-strings (removable)
 └─- utilities
 │   └─- styles (optional styled-components configurations)
 |   |   helpers.js

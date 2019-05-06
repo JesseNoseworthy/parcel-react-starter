@@ -8,7 +8,7 @@
           "app": "./src/app",
           "components": "./src/components",
           "assets": "./src/assets",
-          "data": "./src/data",
+          "resource_strings": "./src/resource-strings",
           "utilities": "./src/utilities"
         }
       }
