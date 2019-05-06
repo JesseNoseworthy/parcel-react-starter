@@ -31,11 +31,11 @@ src
     $ npx parcel-react-starter your-app-name
     ```
 
-2. Navigate to the directory for your newly generated app (`./app` for instance)
+2. Navigate to the directory for your newly generated app (`./your-app-name` for instance)
     ```shell
-    $ cd app
+    $ cd your-app-name
     ```
-    
+
 3. Run a fresh install
     ```shell
     $ yarn
